@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: #D7C49EFF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 500px;
+    background-color: #343148FF;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-size: medium;
+}
+
+.column-layout {
+    display: flex;
+    flex-direction: column;
+    /* Aligns the divs vertically */
+    gap: 20px;
+    /* Optional: Adds space between the divs */
+}
+
+.summary {
+    color: #D7C49EFF;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: medium;
+    padding-bottom: 20px;
+    text-align: center;
+}
