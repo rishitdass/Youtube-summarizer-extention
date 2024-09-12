@@ -9,7 +9,7 @@ def auto_bold_colon_phrases(text):
     return formatted_text
 
 
-# Set your OpenAI API key
+# sset Your API Key Here, You can get it after signing in on Openpipe.ai
 os.environ["OPENAI_API_KEY"] = "API KEY HERE"
 client = OpenAI()
 
