@@ -10,7 +10,7 @@ def auto_bold_colon_phrases(text):
 
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "opk_8abdaf9e82aa04173d5d52e9ddf8e23396fd555077"
+os.environ["OPENAI_API_KEY"] = "API KEY HERE"
 client = OpenAI()
 
 
